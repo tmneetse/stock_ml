@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stock_ml"
+version = "0.1.0"
+description = ""
+authors = ["m.tsumura"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pycaret = "^2.3.6"
+japanize-matplotlib = "^1.1.3"
+yfinance = "^0.1.69"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
